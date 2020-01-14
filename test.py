@@ -1,1 +1,0 @@
-# by Dhrumil Mehta and Sultan

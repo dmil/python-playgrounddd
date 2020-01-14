@@ -17,10 +17,10 @@ vegetables = [
 # called vegetables.csv
 with open('vegetables.csv', 'w') as f:
 	writer = csv.writer(f)
-	writer.writerow(['name', 'color'])
+	writer.writerow(['name', 'color', 'length'])
 
 	for veg in vegetables:
-		writer.writerow([veg["name"], veg["color"]])
+		writer.writerow([veg["name"], veg["color"], len(veg["name"])])
 
 
 # hint!:Don't forget to first write 
